@@ -256,6 +256,6 @@ cursor.execute('SELECT * FROM reminders')
 result = cursor.fetchall()
 for r in result:
   client.loop.create_task(load_reminder(*r))
-client.run(tokenpassword)
+client.run(NTcwNzczOTE3OTM0MDI2NzUz.XMEJpg._WSZqj0-jGG5EH6YNB-Utgf6cTs)
 
 
