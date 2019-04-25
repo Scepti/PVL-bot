@@ -224,4 +224,4 @@ async def on_message(message):
     args = text[1:].split(maxsplit=1)
     if args[0].lower() in commands:
       await commands[args[0].lower()](message, args[1] if len(args) > 1 else '')
-client.run(passwords.discordpass)
+client.run(tokenpassword)
