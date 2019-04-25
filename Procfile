@@ -1,1 +1,1 @@
-worker: python badgebot-bot.py
+worker: python badgebotbot.py
