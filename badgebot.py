@@ -256,6 +256,6 @@ cursor.execute('SELECT * FROM reminders')
 result = cursor.fetchall()
 for r in result:
   client.loop.create_task(load_reminder(*r))
-client.run(passwords.discordpass)
+client.run()
 
 
